@@ -1,6 +1,7 @@
 class Solution {
 public:
     ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+        //create a temporary linked list
         ListNode dummy(INT_MIN);
         ListNode *tail = &dummy;
         
